@@ -2,15 +2,18 @@
 
 This is my solution to the [QR Code Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
-## 🛠 Built With
+## Tools Used
+- Visual Studio Code
 
+##  Built With
 - HTML5
 - CSS3
 
-## 📸 Screenshot
+##  Screenshot
 ![Screenshot](./desktop-design.jpg)
+![Screenshot](./mobile-design.jpg)
 
-## 🧠 What I Learned
+##  What I Learned
 
 While building this challenge, I practiced:
 - Creating a centered card layout using div

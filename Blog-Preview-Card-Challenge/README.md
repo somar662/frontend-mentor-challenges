@@ -4,8 +4,8 @@ This is a solution to the [Frontend Mentor Blog Preview Card Challenge](https://
 
 ##  Screenshot
 
-![Blog Preview Card Screenshot](Blog-Preview-Card-Challenge/blog_card_mobile_screenshot.png)
-![Blog Preview Card Screenshot](Blog-Preview-Card-Challenge/blog_card_desktop_screenshot.png)
+![Blog Preview Card Screenshot](./blog_card_mobile_screenshot.png)
+![Blog Preview Card Screenshot](./blog_card_desktop_screenshot.png)
 
 
 ##  Built With

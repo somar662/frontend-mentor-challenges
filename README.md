@@ -9,5 +9,8 @@ Inside each folder:
 - `index.html` – the main HTML file
 - `style.css` – the main stylesheet
 - `README.md` – details about the challenge and my approach
+- `images folder`
+- `desktop and mobile screenshot`
+  
 
 

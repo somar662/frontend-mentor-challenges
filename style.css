@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@100;400;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body{
+
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+}
+p{
+    color: #7280a7;
+}
+
+#container {
+    margin-top: 7rem;
+    margin-left:auto;
+    margin-right: auto;
+    width: 450px;
+    height: 650px;
+    background-color: white;
+    border-radius: 25px;
+    clear: both;
+}
+.illustration img{
+    width: 450px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.content{
+    padding: 2rem;
+    text-align: center;
+    
+}
+.order-summary{
+    padding-bottom: 1rem;
+    font-weight: 900;
+    color: #1f2f56;
+    font-size: 2.5rem;
+}
+.subheading{
+    font-weight: 400;
+    padding-bottom: 1rem;
+    
+
+}
+#payment_plan{
+    width: 350px;
+    height: 80px;
+    background-color: #f5f7ff;
+    border-radius: 20px;
+    clear: both;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    font-size: 14px;
+    align-items: center;
+}
+
+.right{
+    float: right;
+    width: 30%;
+}
+.left {
+    float: left;
+    width: 60%;
+  }
+.music_icon{
+    float: left;
+    width: 50%;
+}
+.payment_style{
+    float: right;
+    width: 50%;  
+}
+.proceed_btn{
+    margin-top: 2rem;
+    background-color: #3829e0;
+    border-radius: 15px;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    
+}
+.cancel_order_btn{
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 15px;
+    color: #7280a7;
+    width: 350px;
+    height: 50px;
+    font-size: 12px;
+    border: none;
+    background: none
+}
+
+@media only screen and (max-width: 425px) {
+    #container {
+        max-width: 85%;
+    }
+    .subheading{
+        font-size: 15px;
+    }
+}

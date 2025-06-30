@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: rgb(243, 243, 243);
+    color: #4c4e61;
+}
+header{
+    text-align: center;
+    margin: 3rem 3rem;
+}
+.first_title{
+    font-weight: 100;
+    font-size: 35px;
+}
+.second_title{
+    font-weight: 600;
+    font-size: 35px;
+}
+.desc{
+    font-weight: 400;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 15px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    grid-template-areas: ". b ." "a b d" "a c d" ". c .";
+}
+#main >:nth-child(1){
+    grid-area: a;
+}
+#main >:nth-child(2){
+    grid-area: b;
+}
+#main >:nth-child(3){
+    grid-area: c;
+}
+#main >:nth-child(4){
+    grid-area: d;
+}
+img{
+    margin: 1rem 1rem;
+}
+.box1{
+    text-align: right;
+    width: 400px;
+    background-color: white;
+    border-top: 4px solid #45d3d3;
+    border-radius: 5px;
+    height:250px;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+}
+.box_text{
+    text-align: left;
+    margin: 2rem 2rem;   
+}
+
+.box2{
+    text-align: right;
+    width: 400px;
+    background-color: white;
+    border-top: 4px solid #ea5353 ;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    height:250px;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+}
+.box3{
+    text-align: right;
+    width: 400px;
+    background-color: white;
+    border-top: 4px solid #fcaf4a;
+    border-radius: 5px;
+    height: 250px;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+}
+.box4{
+    text-align: right;
+    width: 400px;
+    background-color: white;
+    border-top: 4px solid #549ef2;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 468px) {
+   .second_title, .first_title{
+    font-size: 25px;
+   }
+   .desc{
+    font-size: 16px;
+   }
+    #main{
+        grid-template-columns: 1fr;
+        grid-template-areas: "a" "b" "c" "d";
+    }
+    .box1, .box2, .box3, .box4{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .box_text{
+        font-size: 14px;
+    }
+   
+  }
+
+
+
+
